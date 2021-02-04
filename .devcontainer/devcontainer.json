@@ -1,0 +1,25 @@
+{
+	"name": "Terraform, or containerlabs ubuntu w/ asdf installed",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": [
+		// "-v", "${env:HOME}/.config/gcloud:/home/sr-erlang/.config/gcloud:ro",
+		// "-v","/var/run/docker.sock:/var/run/docker.sock"
+	],
+	// "remoteUser": "sr-erlang",
+	"postCreateCommand": "echo done",
+	"extensions": [
+		// ms extensions
+		"ms-azuretools.vscode-docker",
+
+		// general extensions
+		"eriklynd.json-tools",
+		"redhat.vscode-yaml",
+		"eamodio.gitlens",
+		"donjayamanne.githistory",
+		// "humao.rest-client",
+
+		// terraform-specific
+	]
+}
