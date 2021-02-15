@@ -1,3 +1,3 @@
 variable "repository" {
-    type = string
+  type = string
 }
