@@ -3,10 +3,10 @@ variable "repository" {
 }
 
 variable "dependabot_enabled" {
-  type = bool
+  type    = bool
   default = true
 }
 variable "dependabot_directory" {
-  type = string
+  type    = string
   default = "."
 }
