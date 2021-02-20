@@ -13,11 +13,11 @@ variable "dependabot_directory" {
 }
 
 variable "workspace_image_tag" {
-  defualt = ""
+  default = ""
   type    = string
 }
 
-variable "workspacce_image_digest" {
+variable "workspace_image_digest" {
   default = ""
   type    = string
 }
