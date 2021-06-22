@@ -5,6 +5,8 @@ module "gitignore" {
   ignores = [
     "osx",
     "windows",
-    "flutter"
+    "flutter",
+    "unity",
+    "fastlane"
   ]
 }
