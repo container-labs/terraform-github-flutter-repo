@@ -75,5 +75,5 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: $${{ secrets.GITHUB_TOKEN }}
           FILTER_REGEX_EXCLUDE: ".*dart|.*/fastlane/.*|/.vscode/.*|.*cs||.*proto"
